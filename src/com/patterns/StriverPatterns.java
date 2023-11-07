@@ -4,8 +4,16 @@ import java.util.Scanner;
 
 class Patterns22 {
 
+	
+//	pattern: 1
+//	
+//	* * * * * 
+//	* * * * * 
+//	* * * * * 
+//	* * * * * 
+//	* * * * * 
+	
 	public void pattern01(int n) {
-		// TODO Auto-generated method stub
 
 		for (int i = 1; i <= n; i++) {
 
@@ -18,8 +26,16 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 2
+//	
+//	* 
+//	* * 
+//	* * * 
+//	* * * * 
+//	* * * * *
+//	
 	public void pattern02(int n) {
-		// TODO Auto-generated method stub
 		for (int i = 1; i <= n; i++) {
 
 			for (int j = 1; j <= i; j++) {
@@ -31,8 +47,17 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 3
+//	
+//	1 
+//	1 2 
+//	1 2 3 
+//	1 2 3 4 
+//	1 2 3 4 5 
+//
+//	
 	public void pattern03(int n) {
-		// TODO Auto-generated method stub
 		for (int i = 1; i <= n; i++) {
 
 			for (int j = 1; j <= i; j++) {
@@ -44,8 +69,16 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 4
+//	
+//	1 
+//	2 2 
+//	3 3 3 
+//	4 4 4 4 
+//	5 5 5 5 5 
+
 	public void pattern04(int n) {
-		// TODO Auto-generated method stub
 		for (int i = 1; i <= n; i++) {
 
 			for (int j = 1; j <= i; j++) {
@@ -57,8 +90,16 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 5
+//	
+//	* * * * * 
+//	* * * * 
+//	* * * 
+//	* * 
+//	* 
+
 	public void pattern05(int n) {
-		// TODO Auto-generated method stub
 		for (int i = n; i >= 1; i--) {
 
 			for (int j = 1; j <= i; j++) {
@@ -69,8 +110,16 @@ class Patterns22 {
 		}
 	}
 
+	
+//	pattern: 6
+//	
+//	1 2 3 4 5 
+//	1 2 3 4 
+//	1 2 3 
+//	1 2 
+//	1 
+
 	public void pattern06(int n) {
-		// TODO Auto-generated method stub
 		for (int i = n; i >= 1; i--) {
 
 			for (int j = 1; j <= i; j++) {
@@ -82,8 +131,17 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 7
+//	
+//    			* 
+//            * * * 
+//          * * * * * 
+//        * * * * * * * 
+//      * * * * * * * * * 
+//
+
 	public void pattern07(int n) {
-		// TODO Auto-generated method stub
 
 		for (int i = 1; i <= n; i++) {
 
@@ -101,8 +159,16 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 8
+//	
+//	* * * * * * * * * 
+//	  * * * * * * * 
+//	    * * * * * 
+//	      * * * 
+//	        * 
+	
 	public void pattern08(int n) {
-		// TODO Auto-generated method stub
 		for (int i = n; i >= 1; i--) {
 
 			for (int s = 1; s <= n - i; s++) {
@@ -119,23 +185,60 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 9
+//	
+//    			* 
+//    		  * * * 
+//    		* * * * * 
+//        * * * * * * * 
+//      * * * * * * * * * 
+//      * * * * * * * * * 
+//        * * * * * * * 
+//          * * * * * 
+//            * * * 
+//              * 
+//    
+    
 	public void pattern09(int n) {
-		// TODO Auto-generated method stub
 
 		pattern07(n);
 		pattern08(n);
 	}
 
+	
+//	pattern: 10
+//	
+//	* 
+//	* * 
+//	* * * 
+//	* * * * 
+//	* * * * * 
+//	* * * * 
+//	* * * 
+//	* * 
+//	* 
+
+	
 	public void pattern10(int n) {
-		// TODO Auto-generated method stub
 
 		pattern02(n);
 		pattern05(n - 1);
 
 	}
 
+	
+	
+//	pattern: 11
+//	
+//	1 
+//	0 1 
+//	1 0 1 
+//	0 1 0 1 
+//	1 0 1 0 1 
+//
+	
 	public void pattern11(int n) {
-		// TODO Auto-generated method stub
 
 		for (int i = 1; i <= n; i++) {
 
@@ -158,8 +261,17 @@ class Patterns22 {
 		}
 	}
 
+	
+//	pattern: 12
+//	
+//	1                 1 
+//	1 2             2 1 
+//	1 2 3         3 2 1 
+//	1 2 3 4     4 3 2 1 
+//	1 2 3 4 5 5 4 3 2 1 
+	
+	
 	public void pattern12(int n) {
-		// TODO Auto-generated method stub
 
 		for (int i = 1; i <= n; i++) {
 
@@ -185,8 +297,17 @@ class Patterns22 {
 
 	}
 
+	
+	
+//	pattern: 13
+//	
+//	1 
+//	2 3 
+//	4 5 6 
+//	7 8 9 10 
+//	11 12 13 14 15 
+	
 	public void pattern13(int n) {
-		// TODO Auto-generated method stub
 		int count = 1;
 		for (int i = 1; i <= n; i++) {
 
@@ -200,8 +321,17 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 14
+//	
+//	A 
+//	A B 
+//	A B C 
+//	A B C D 
+//	A B C D E 
+
+	
 	public void pattern14(int n) {
-		// TODO Auto-generated method stub
 
 		for (int i = 1; i <= n; i++) {
 
@@ -214,8 +344,16 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 15
+//	
+//	A B C D E 
+//	A B C D 
+//	A B C 
+//	A B 
+//	A
+	
 	public void pattern15(int n) {
-		// TODO Auto-generated method stub
 		for (int i = n; i >= 1; i--) {
 
 			for (int j = 1; j <= i; j++) {
@@ -227,8 +365,17 @@ class Patterns22 {
 
 	}
 
+	
+//	pattern: 16
+//	
+//	A 
+//	B B 
+//	C C C 
+//	D D D D 
+//	E E E E E 
+	
+	
 	public void pattern16(int n) {
-		// TODO Auto-generated method stub
 		for (int i = 1; i <= n; i++) {
 
 			for (int j = 1; j <= i; j++) {
@@ -239,8 +386,16 @@ class Patterns22 {
 		}
 	}
 
+	
+//	pattern: 17
+//	
+//			A 
+//		  A B A 
+//		A B C B A 
+//	  A B C D C B A 
+//  A B C D E D C B A 
+	
 	public void pattern17(int n) {
-		// TODO Auto-generated method stub
 
 		for (int i = 1; i <= n; i++) {
 
@@ -264,8 +419,18 @@ class Patterns22 {
 
 	}
 
+	
+	
+//	pattern: 18
+//	
+//	E 
+//	D E 
+//	C D E 
+//	B C D E 
+//	A B C D E 
+	
+	
 	public void pattern18(int n) {
-		// TODO Auto-generated method stub
 
 		for (int i = n; i >= 1; i--) {
 
@@ -278,6 +443,23 @@ class Patterns22 {
 
 	}
 
+	
+	
+//	pattern: 19
+//	
+//	* * * * * * * * * * 
+//	* * * *     * * * * 
+//	* * *         * * * 
+//	* *             * * 
+//	*                 * 
+//	*                 * 
+//	* *             * * 
+//	* * *         * * * 
+//	* * * *     * * * * 
+//	* * * * * * * * * * 
+	
+	
+	
 	public void pattern19(int n) {
 
 		// upper part
@@ -327,6 +509,22 @@ class Patterns22 {
 		}
 
 	}
+	
+	
+	
+	
+//	pattern: 20
+//	
+//	*                 * 
+//	* *             * * 
+//	* * *         * * * 
+//	* * * *     * * * * 
+//	* * * * * * * * * * 
+//	* * * *     * * * * 
+//	* * *         * * * 
+//	* *             * * 
+//	*                 * 
+
 
 	public void pattern20(int n) {
 		// upper part
@@ -377,48 +575,99 @@ class Patterns22 {
 	}
 
 	
+	
+//	pattern:21
+//	
+//	* * * * * 
+//	*       * 
+//	*       * 
+//	*       * 
+//	* * * * * 
+	
 	public void pattern21(int n) {
-		// TODO Auto-generated method stub
-		
-		for(int i = 1;i<=n;i++) {
-			
-			for(int j = 1;j<=n;j++) {
-				
-				if(i==1||i==n||j==1||j==n) {
+
+		for (int i = 1; i <= n; i++) {
+
+			for (int j = 1; j <= n; j++) {
+
+				if (i == 1 || i == n || j == 1 || j == n) {
 					System.out.print("* ");
-				}else {
+				} else {
 					System.out.print("  ");
 				}
 			}
 			System.out.println();
 		}
-		
+
 	}
 
 	
+//	pattern: 22
+//	
+//	5 5 5 5 5 5 5 5 5 
+//	5 4 4 4 4 4 4 4 5 
+//	5 4 3 3 3 3 3 4 5 
+//	5 4 3 2 2 2 3 4 5 
+//	5 4 3 2 1 2 3 4 5 
+//	5 4 3 2 2 2 3 4 5 
+//	5 4 3 3 3 3 3 4 5 
+//	5 4 4 4 4 4 4 4 5 
+//	5 5 5 5 5 5 5 5 5 
+	
+	
+	
 	public void pattern22(int n) {
-		// TODO Auto-generated method stub
-		
-		for(int i = n;i>=1;i--) {
-			
-			
-			for(int s = n;s>i;s++) {
-				System.out.print(s+" ");
+
+		// upper part
+		for (int i = n; i >= 1; i--) {
+
+			//left side right angle triangle with different column values
+			for (int s = n; s > i; s--) {
+				System.out.print(s + " ");
 			}
+
 			
-			for(int j = 1;j<i*2-1;j++) {
-				
-				System.out.print(i+" ");
+			//middle equilateral triangle with same row values
+			for (int j = 1; j <= i * 2 - 1; j++) {
+
+				System.out.print(i + " ");
 			}
-			
-			for(int s = i+1;s<=n;s++) {
-				System.out.print(s+" ");
+
+			//right side right angle triangle with different column values
+			for (int s = i + 1; s <= n; s++) {
+				System.out.print(s + " ");
 			}
 			System.out.println();
-			
+
 		}
-		
-		
+
+		// lower part
+		//starting with 2 because, in above part the pattern is reduced to 1,
+		//so, again no need to go for 1
+		for (int i = 2; i <=n; i++) {
+
+			
+			//left side right angle triangle with different column values
+			for (int s = n; s > i; s--) {
+				System.out.print(s + " ");
+			}
+
+			
+			//middle equilateral triangle with same row values
+			for (int j = i*2-1; j>=1; j--) {
+
+				System.out.print(i + " ");
+			}
+
+			
+			//right side right angle triangle with different column values
+			for (int s = i + 1; s <= n; s++) {
+				System.out.print(s + " ");
+			}
+			System.out.println();
+
+		}
+
 	}
 
 }
@@ -454,6 +703,8 @@ public class StriverPatterns {
 //		sp.pattern20(n);
 //		sp.pattern21(n);
 		sp.pattern22(n);
+		
+		scan.close();
 	}
 
 }
