@@ -401,20 +401,21 @@ class Patterns22 {
 		
 		for(int i = n;i>=1;i--) {
 			
-			for(int j = n;j>=i;j--) {
-				
-				System.out.print(j+" ");
+			
+			for(int s = n;s>i;s++) {
+				System.out.print(s+" ");
 			}
 			
-			for(int s = 1;s<=n*2-i*2-1;s++) {
+			for(int j = 1;j<i*2-1;j++) {
 				
-				System.out.print("  ");
+				System.out.print(i+" ");
 			}
 			
-			for(int j = i;j<=n;j++) {
-				System.out.print(j+" ");
+			for(int s = i+1;s<=n;s++) {
+				System.out.print(s+" ");
 			}
 			System.out.println();
+			
 		}
 		
 		
