@@ -1,0 +1,11 @@
+1. Largest Sum 
+Contiguous Subarray (Kadane’s Algorithm) 
+ https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+
+2. Check if a string contains uppercase, lowercase, special characters and numeric values https://www.geeksforgeeks.org/check-if-a-string-contains-uppercase-lowercase-special-characters-and-numeric-values/
+
+3. Find The Second Largest element in the array without using built-in
+
+4. Reverse a String 
+
+5. Check if the given string is a palandrom or not

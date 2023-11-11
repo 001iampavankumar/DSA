@@ -1,0 +1,15 @@
+1. Remove Duplicate from a String 
+
+https://www.geeksforgeeks.org/remove-duplicates-from-a-given-string/amp/
+
+2. Find the Fine
+
+https://practice.geeksforgeeks.org/problems/find-the-fine4353/1?page=3&difficulty%5B%5D=-1&category%5B%5D=Arrays&sortBy=submissions
+
+3. Liner Search 
+
+4. Binary search
+
+5. Alternatively Merge 2 strings
+
+https://www.geeksforgeeks.org/alternatively-merge-two-strings-in-java/
